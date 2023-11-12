@@ -4,4 +4,4 @@ COPY package*.jason ./
 RUN npm install
 COPY . .
 EXPOSE 8080
-CMD ["node","server.js"] change
+CMD ["node","server.js"]

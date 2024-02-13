@@ -16,8 +16,8 @@ jobs:
           file: ./src/dockerfile          
           push: true
           tags:
-            blunatrostdorf/kube-newsmine:v1
-            blunatrostdorf/kube-newsmine:latest
+            docker build -t blunatrostdorf/kube-newsmine:v1
+            docker build -t blunatrostdorf/kube-newsmine:latest
           
       
       

@@ -13,8 +13,12 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: ./src
-          file: ./src/dockerfile
+          file: ./src/dockerfile          
           push: true
+          tags:
+            Usuário@DESKTOP-24MCU0H/kube-newsmine:v1
+            Usuário@DESKTOP-24MCU0H/kube-newsmine:latest
+          
       
       
       

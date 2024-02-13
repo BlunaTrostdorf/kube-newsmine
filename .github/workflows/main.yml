@@ -16,8 +16,8 @@ jobs:
           file: ./src/dockerfile          
           push: true
           tags:
-            BlunaTrostdorf/kube-newsmine:v1
-            BlunaTrostdorf/kube-newsmine:latest
+            blunatrostdorf/kube-newsmine:v1
+            blunatrostdorf/kube-newsmine:latest
           
       
       

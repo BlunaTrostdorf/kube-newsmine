@@ -16,8 +16,8 @@ jobs:
           file: ./src/dockerfile          
           push: true
           tags:
-            Usuário@DESKTOP-24MCU0H/kube-newsmine:v1
-            Usuário@DESKTOP-24MCU0H/kube-newsmine:latest
+            BlunaTrostdorf/kube-newsmine:v1
+            BlunaTrostdorf/kube-newsmine:latest
           
       
       
